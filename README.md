@@ -12,9 +12,11 @@
 - *Processamento (Flink SQL);*
 - *Custo total de teardown.*
 
+| Obs.: Os arquivos de configuração (scripts JSON), os scripts SQL ainda em finalização.
+
 ## 💻 Resumos: 
 ```
-PostegreSQL + Apache Flink SQL + IBM Confluent Cloud
+PostegreSQL + Apache Flink SQL + Apache Kafka + IBM Confluent Cloud
 ```
 
 | **Temas** | **Resumos** |
