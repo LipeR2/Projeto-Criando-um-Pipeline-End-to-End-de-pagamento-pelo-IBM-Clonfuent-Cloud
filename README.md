@@ -27,15 +27,13 @@ PostegreSQL + Apache Flink SQL + IBM Confluent Cloud
 
 ## Framework dos Processos:
 
-```mermaid
-flowchart TD
-    A[Pipeline:]
-    B[Neon ``PostgreSQL``] --> C[CDC Debezium]
-    C[CDC Debezium] --> D[tópicos Avro]
-    D[tópicos Avro] --> E[Flink SQL ``enriquecimento + fraude``]
-    E[Flink SQL ``enriquecimento + fraude``] --> F[consumo. Reproduzível com ``./setup.sh``]
-    F[consumo. Reproduzível com ``./setup.sh``] --> G[pré-requisito: ``.env preenchido`` a partir do ``.env.example``]   
-```
+### Pipeline:
+
+- Neon ``PostgreSQL``
+- ``CDC`` Debezium
+- Tópicos ``Avro``
+- Flink SQL ``enriquecimento + fraude``
+- Consumo. Reproduzível com ``./setup.sh`` (pré-requisito: ``.env preenchido`` a partir do ``.env.example``)
 
 ## 📈🗂️🧑🏻‍💻 Atividades Relacionadas ao Lab.:
 - Teardown, um conceito de processo analítico que desmontar ou desconstruir um sistema;
