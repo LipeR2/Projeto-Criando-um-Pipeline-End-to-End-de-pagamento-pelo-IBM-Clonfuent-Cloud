@@ -33,7 +33,7 @@ flowchart TD
     B[Neon ``PostgreSQL``] --> C[CDC Debezium]
     C[CDC Debezium] --> D[tópicos Avro]
     D[tópicos Avro] --> E[Flink SQL ``enriquecimento + fraude``]
-    E[Flink SQL (enriquecimento + fraude)] --> F[consumo. Reproduzível com ``./setup.sh`` (pré-requisito: ``.env preenchido`` a partir do
+    E[Flink SQL ``enriquecimento + fraude``] --> F[consumo. Reproduzível com ``./setup.sh`` (pré-requisito: ``.env preenchido`` a partir do
 ``.env.example`` )]   
 ```
 
