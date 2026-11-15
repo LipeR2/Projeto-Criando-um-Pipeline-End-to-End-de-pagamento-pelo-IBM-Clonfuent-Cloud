@@ -30,9 +30,9 @@ PostegreSQL + Apache Flink SQL + IBM Confluent Cloud
 ```mermaid
 flowchart TD
     A[Pipeline:]
-    B[Neon (PostgreSQL) --> C[CDC Debezium]
+    B[Neon ``PostgreSQL``] --> C[CDC Debezium]
     C[CDC Debezium] --> D[tópicos Avro]
-    D[tópicos Avro] --> E[Flink SQL (enriquecimento + fraude)]
+    D[tópicos Avro] --> E[Flink SQL ``enriquecimento + fraude``]
     E[Flink SQL (enriquecimento + fraude)] --> F[consumo. Reproduzível com ``./setup.sh`` (pré-requisito: ``.env preenchido`` a partir do
 ``.env.example`` )]   
 ```
