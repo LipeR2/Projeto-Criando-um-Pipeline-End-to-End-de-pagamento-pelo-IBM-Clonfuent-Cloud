@@ -12,7 +12,7 @@
 - *Processamento (Flink SQL);*
 - *Custo total de teardown.*
 
-| Obs.: Os arquivos de configuração (scripts JSON), os scripts SQL ainda em finalização.
+>Obs.: Os arquivos de configuração (scripts JSON), os scripts SQL ainda em finalização.
 
 ## 💻 Resumos: 
 ```
