@@ -34,7 +34,7 @@ flowchart TD
     C[CDC Debezium] --> D[tópicos Avro]
     D[tópicos Avro] --> E[Flink SQL ``enriquecimento + fraude``]
     E[Flink SQL ``enriquecimento + fraude``] --> F[consumo. Reproduzível com ``./setup.sh``]
-    G[pré-requisito: ``.env preenchido`` a partir do ``.env.example``]   
+    F[consumo. Reproduzível com ``./setup.sh``] --> G[pré-requisito: ``.env preenchido`` a partir do ``.env.example``]   
 ```
 
 ## 📈🗂️🧑🏻‍💻 Atividades Relacionadas ao Lab.:
