@@ -3,7 +3,7 @@
 
 
 ## 📚 Descrição:
->***O repositório é um Lab. (laboratório) com intenção de aplicar conceitos de pipeline em tempo real em Cloud. Em específico nesse cenário o uso do SGBD (Sistema Gerenciados de Banco de Dados) PostgreSQL, ingestão por CDC, processados pelo Apache Flink SQL em fluxo contínuo, de um data streaming. Nesse Pipeline de pagamento tem as seguinte função, praticar banco de dados até o alerta de fraude na nuvem.***
+>***O repositório é um Lab. (laboratório) com intenção de aplicar conceitos de pipeline em tempo real em Cloud. Em específico nesse cenário o uso do SGBD (Sistema Gerenciados de Banco de Dados) PostgreSQL, ingestão por CDC, processados pelo Apache Flink SQL em fluxo contínuo, ou seja, um data streaming. Nesse Pipeline de pagamento tem a seguinte função, praticar banco de dados até o alerta de fraude na nuvem.***
 
 ## ✅ Tópicos de Construção (camadas):
 - *Fundação;*
